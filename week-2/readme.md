@@ -26,7 +26,7 @@ Scheme преди 2 години. Първите две, предполагам,
 **Задача 3. **  Да се напише процедура, която намира sin(x) по дадената формула.
 Пресмятането да продължи докато последното добавено събираемо по модул стане по-малко от e
 (достатъчно малко положително число).
-![Sine](https://github.com/batebobo/FunctionalProgramming-KN7-2016/blob/master/week-2/sine.svg)
+![Sine](https://wikimedia.org/api/rest_v1/media/math/render/svg/18f6fcb7589b3e0c2891dacebdcae5408c6a3ceb)
 
 **Задача 4. ** Имплементирайте [ей тази чудесия](https://en.wikipedia.org/wiki/Nth_root_algorithm).
 За нея ще трябват няколко вметки, които ще ви спестят главоболия (надявам се), а именно:  
