@@ -1,5 +1,11 @@
 #Задачи за списъци и accumulate
 
+##Accumulate
+
+![Acc-1](http://i.imgur.com/FG27TI3.jpg)
+![Acc-2](http://i.imgur.com/CyBms7c.jpg)
+
+
 **Дефинирайте** процедура, която обръща даден списък (non-deep).
 ```Scheme
 (reverse-list '(1 2 3 4)) -> (4 3 2 1)
