@@ -90,7 +90,7 @@
     (define (helper n d)
         (cond ((> d (sqrt n)) #t)
               ((= (remainder n d) 0) #f)
-              ((else) (helper n (+ d 1)))))
+              (else (helper n (+ d 1)))))
     (helper n 2))
     
 ; Или
