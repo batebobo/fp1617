@@ -78,7 +78,7 @@ Practice
 ```Scheme
 (define get-nth-row list-ref)
 ```
-![Magic](https://media.giphy.com/media/VHngktboAlxHW/giphy-downsized-large.gif)
+[What did just happen??](https://media.giphy.com/media/VHngktboAlxHW/giphy-downsized-large.gif)
 
 Да вземем n-тата колона е малко по-tricky.
 
