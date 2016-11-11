@@ -34,7 +34,7 @@
         (if (= (root tree) x)
             #t
             (or (member? x (left tree))
-                (member? x (right tree))))))))
+                (member? x (right tree))))))
 ```
 
 3. проверка дали **х** е листо в дадено дърво
@@ -78,7 +78,7 @@ Practice
 ```Scheme
 (define get-nth-row list-ref)
 ```
-![Magic](http://gifyu.com/images/magicb41e5.gif)
+![Magic](https://media.giphy.com/media/VHngktboAlxHW/giphy-downsized-large.gif)
 
 Да вземем n-тата колона е малко по-tricky.
 
