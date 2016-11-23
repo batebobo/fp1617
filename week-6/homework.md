@@ -25,7 +25,7 @@
 '((82312 "Goshka Pencheva") (99212 "The Wizard")...) да връща името, съответстващо на този факултетен номер.  
 Например:
 ```Scheme
-(subject-helper 84221 '((84222 "Being Creative") (84221 "Not Really") (99322 "Oh Well)))
+(subject-helper 84221 '((84222 "Being Creative") (84221 "Not Really") (99322 "Oh Well")))
 -> "[HOMEWORK] 84221 Not Really"
 ```
 Hint: казах ви откъде да гледате с какви вградени функции може да работите.
