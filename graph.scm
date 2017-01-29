@@ -1,4 +1,3 @@
-#lang racket
 (define graph '((1 3 4 5) (2 1 5) (3 4 2 5) (4 4 1) (5 5)))
 ;The list above represents a graph.
 ;The first element of each list represents the vertex,
