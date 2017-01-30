@@ -1,6 +1,6 @@
 ; Streams in Scheme help us represent potentially infinite lists.
 ; A stream is a pair, whose first element is the one we're "interested in"
-; and whose second element is yet to be evaluated (i.e it's evaluation is delayed).
+; and whose second element is yet to be evaluated (i.e its evaluation is delayed).
 ; If we do not delay the evaluation of the second part, we will quickly run out of memory,
 ; because our operating memory is finite.
 
@@ -56,13 +56,13 @@
 (define (stream-ref stream n)
   (if (= n 0)
       (head stream)
-      (stream-ref (- n 1) (tail stream))))
+      (stream-ref (tail stream) (- n 1))))
 
 ; (stream-tail stream n) - returns the stream, skipping the first n elements.
 (define (stream-tail stream n)
   (if (= n 0)
       stream
-      (stream-tail (- n 1) (tail stream))))
+      (stream-tail (tail stream) (- n 1))))
 
 ; (take stream n) - returns a list, containing the fist n elements of the given stream. Kinda works like take in Haskell
 (define (take stream n)
